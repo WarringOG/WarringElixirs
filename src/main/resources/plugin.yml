@@ -1,0 +1,8 @@
+name: WarringElixirs
+version: 1.0.0-STABLE
+main: com.warring.elixirs.Main
+authors: [Warring]
+commands:
+  elixirs:
+    description: /<command>
+    aliases: [elixir]

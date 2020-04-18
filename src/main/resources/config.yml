@@ -1,0 +1,32 @@
+
+Elixirs:
+  Hermes:
+    Item:
+      Type: SPLASH
+      Potion: FIRE_RESISTANCE
+      Name: "&a&lHermes Elixir"
+      Lore:
+        - "&7Drink this elixir to"
+        - "&7Gain big effects!"
+    Effects:
+      - "SPEED;30;2"
+  Hades:
+    Item:
+      Type: DRINK
+      Potion: FIRE_RESISTANCE
+      Name: "&a&lHades Elixir"
+      Lore:
+      - "&7Drink this elixir to"
+      - "&7Gain big effects!"
+    Effects:
+    - "SPEED;30;2"
+
+Messages:
+  NoPermission: "&c&l[!]&4 You&c do not have &4permission&c."
+  InvalidPlayer: "&c&l[!]&4 %player%&c is not online."
+  InvalidElixir: "&c&l[!]&4 %type%&c is not an elixir."
+  InvalidInteger: "&c&l[!]&4 %int%&c is not an integer."
+  DrunkElixir: "&a&l[!]&2 You &ahave drunk an elixir!"
+  SplashedElixir: "&a&l[!]&2 You&a have been splashed with an elixir."
+  RecievedItem: "&a&l[!]&2 You&a have recieved &2%amount%&ax &2%type%&a elixir."
+  GivenItem: "&a&l[!]&2 You&a have given &2%amount%&ax &2%type%&a elixir to &2%player%&a."
